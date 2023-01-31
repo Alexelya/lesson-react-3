@@ -1,0 +1,112 @@
+#sectionIntroduction {
+
+  position: absolute;
+  width: 1920px;
+  height: 740px;
+  left: 0px;
+  top: 0px;
+
+  h1 {
+    position: absolute;
+    width: 1034px;
+    height: 171px;
+    left: 493px;
+    top: 192px;
+
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  h6 {
+    position: absolute;
+    width: 734px;
+    height: 22px;
+    left: 593px;
+    top: 398px;
+
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+  nav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1110px;
+    height: 300px;
+    left: 405px;
+    top: 440px;
+
+    background: #ffffff;
+    ul {
+      list-style-type: none;
+
+      li:nth-child(1) {
+        margin-bottom: 25px;
+        width: 190px;
+        height: 86px;
+        left: 535px;
+        top: 497px;
+
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 107px;
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #f7654a;
+      }
+      li:nth-child(2) {
+        border: none;
+        margin-bottom: 10px;
+        width: 190px;
+        height: 43px;
+        left: 535px;
+        top: 608px;
+
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 53px;
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #000000;
+      }
+      li:nth-child(3) {
+        width: 190px;
+        height: 22px;
+        left: 755px;
+        top: 661px;
+
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+
+        color: #999999;
+      }
+    }
+  }
+}
